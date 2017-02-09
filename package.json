@@ -1,0 +1,16 @@
+{
+  "name": "healthica-web",
+  "version": "1.0.0",
+  "main": "server/healthica-web.js",
+  "repository": "https://github.com/Healthica/healthica-web",
+  "author": "Guy Brukhis <guy.br7@gmail.com>",
+  "scripts": {
+    "start": "node --harmony server/healthica-web.js"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "node-env-file": "^0.1.8"
+  },
+  "license": "GNU GPLv3"
+}

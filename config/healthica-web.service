@@ -1,0 +1,14 @@
+[Unit]
+Description=Healthica Web
+After=network.target
+
+[Service]
+ExecStart=/var/www/healthica/server/healthica-web.js
+Restart=always
+User=ubuntu
+Group=ubuntu
+Environment=PATH=/usr/bin:/usr/local/bin
+WorkingDirectory=/var/www/healthica
+
+[Install]
+WantedBy=multi-user.target
